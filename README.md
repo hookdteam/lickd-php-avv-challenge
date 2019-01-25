@@ -14,8 +14,8 @@ manager. You can download composer [here](https://getcomposer.org/).
 The following commands should get you up and running;
 
 ```
-git clone https://github.com/hookdteam/lickd-php-avv-challenge.git
-cd ./lickd-php-avv-challenge
+git clone git@github.com:hookdteam/lickd-price-calculator-test.git
+cd ./lickd-price-calculator-test
 composer install
 php vendor/bin/phpunit tests/ #to confirm tests are working
 php ./console #entry point to your command
@@ -39,7 +39,7 @@ We have provided CSV exports of the latest video uploads by various YouTube Crea
 
 Each CSV file contains the channel id, video id, video title and video views.
 
-### Part 1
+### Part 1
 
 Taking a `channelId` parameter from the command line we want you to calculate the average
 video views across their latest 50 uploads. We also require that you remove the outlier
@@ -87,6 +87,11 @@ This YouTube Channels Standard Price is: £XX
 This YouTube Channels Brand Price is: £XX
 ```
 
+
 ### Testing
 
 You should demonstrate your application code works by including unit tests.
+
+### Submitting Your
+
+You should either zip your code and send it to use in an email or link to your fork of our github repository.

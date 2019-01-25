@@ -92,6 +92,6 @@ This YouTube Channels Brand Price is: £XX
 
 You should demonstrate your application code works by including unit tests.
 
-### Submitting Your
+### Submitting Your Code
 
 You should either zip your code and send it to use in an email or link to your fork of our github repository.

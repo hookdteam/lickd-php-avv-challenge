@@ -41,7 +41,11 @@ Each CSV file contains the channel id, video id, video title and video views.
 
 ### Part 1
 
-Taking a `channelId` parameter from the command line we want you to calculate the average video views across their latest 50 uploads. We also require that you remove the outlier videos that have done either exceptionally well or poorly in terms of video views. Therefore you **should remove the lower 5th percentile and upper 5th percentile** videos from your calculation.
+Taking a `channelId` parameter from the command line we want you to calculate the average
+video views across their latest 50 uploads. We also require that you remove the outlier
+videos that have done either exceptionally well or poorly in terms of video views.
+Therefore you **should remove the lower 5th percentile and upper 5th percentile** videos
+from your calculation.
 
 ### Part 2
 

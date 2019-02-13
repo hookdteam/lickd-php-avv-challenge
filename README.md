@@ -87,7 +87,6 @@ This YouTube Channels Standard Price is: £XX
 This YouTube Channels Brand Price is: £XX
 ```
 
-
 ### Testing
 
 You should demonstrate your application code works by including unit tests.

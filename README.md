@@ -42,10 +42,7 @@ Each CSV file contains the channel id, video id, video title and video views.
 ### Part 1
 
 Taking a `channelId` parameter from the command line we want you to calculate the average
-video views across their latest 50 uploads. We also require that you remove the outlier
-videos that have done either exceptionally well or poorly in terms of video views.
-Therefore you **should remove the lower 5th percentile and upper 5th percentile** videos
-from your calculation.
+video views across their latest 50 uploads. The `channelId` corresponds to the files in the `/data` directory.
 
 ### Part 2
 
@@ -65,6 +62,19 @@ price band as detailed in the table below.
 | 1.75m - 2m    | £50   |
 | 2m+           | £60   |
 
+```php
+[
+    [0, 100000, 10.00],
+    [100000, 500000, 20.00],
+    [500000, 1000000, 30.00],
+    [1000000, 1250000, 35.00],
+    [1250000, 1500000, 40.00],
+    [1500000, 1750000, 45.00],
+    [1750000, 2000000, 50.00],
+    [2000000, 9999999, 60.00],
+]
+```
+
 #### Brand Pricing
 
 | Average Views | Price |
@@ -76,6 +86,16 @@ price band as detailed in the table below.
 | 1.75m - 2m    | £200  |
 | 2m+           | £250  |
 
+```php
+[
+    [0, 1000000, 25.00],
+    [1000000, 1250000, 75.00],
+    [1250000, 1500000, 125.00],
+    [1500000, 1750000, 165.00],
+    [1750000, 2000000, 200.00],
+    [2000000, 9999999, 250.00],
+]
+```
 
 ### Output
 

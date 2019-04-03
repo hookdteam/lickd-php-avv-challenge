@@ -21,6 +21,23 @@ php vendor/bin/phpunit tests/ #to confirm tests are working
 php ./console #entry point to your command
 ```
 
+## Docker Setup
+
+To use via Docker you'll need docker on your machine setup along with Docker Compose.
+
+```
+docker-compose up  # to pull and start the image and install the dependancies
+```
+
+Once the container is up and you can see `looping` repeated in the console you can acccess the shell in the container by;
+
+```
+docker exec -it lickd-php-avv-challenge_php_1 bash
+```
+
+All the source code is stored under `/var/www/html` and from there you can run `php ./console.php`
+
+
 ### Application
 
 This simple PHP project has been configured with the `symfony/console` package
